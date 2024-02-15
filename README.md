@@ -1,3 +1,5 @@
+Please note this version is more to share the best practices but its not fully working.
+
 #Introduction
     
     Welcome to the .NET Core Web API project!
