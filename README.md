@@ -13,5 +13,5 @@ Make sure you have the .NET Core SDK installed on your computer. You can downloa
 
 Open your terminal or command prompt and navigate to the directory where you want to clone the project. Use the following command to clone this .NET Core Web API project:
 
-git clone https://github.com/
+git clone https://github.com/PadmajaSampath/TrackingTasks-backend
 
