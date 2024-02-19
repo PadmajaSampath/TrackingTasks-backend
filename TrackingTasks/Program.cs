@@ -16,8 +16,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<WorkTaskDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("WorkTaskDbContext")),
-    contextLifetime: ServiceLifetime.Transient,
-    optionsLifetime: ServiceLifetime.Transient);
+    contextLifetime: ServiceLifetime.Singleton,
+    optionsLifetime: ServiceLifetime.Singleton);
 
 
 builder.Services.AddScoped<IWorkTaskService, WorkTaskService>();
